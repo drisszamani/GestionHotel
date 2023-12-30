@@ -1,10 +1,11 @@
 package com.hotelreservation;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
 @Table(name = "chambres")
-public class chambre {
+public class Chambre {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -19,7 +20,7 @@ public class chambre {
     private BigDecimal prix;
 
     // Constructeurs
-    public chambre() {}
+    public Chambre() {}
 
     // Getters et setters
     public Long getId() { return id; }

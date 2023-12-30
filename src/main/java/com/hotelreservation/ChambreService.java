@@ -1,37 +1,38 @@
 package com.hotelreservation;
+
 import java.time.LocalDate;
 import java.util.List;
 
-public class chambreService {
-    private final chambreDAO chambreDAO;
+public class ChambreService {
+    private final ChambreDAO chambreDAO;
 
-    public chambreService(chambreDAO chambreDAO) {
+    public ChambreService(ChambreDAO chambreDAO) {
         this.chambreDAO = chambreDAO;
     }
 
-    public chambre getChambreById(Long id) {
+    public Chambre getChambreById(Long id) {
         return chambreDAO.findById(id);
     }
 
-    public void saveChambre(chambre chambre) {
+    public void saveChambre(Chambre chambre) {
         chambreDAO.save(chambre);
     }
 
-    public void updatechambre(chambre chambre) {
+    public void updateChambre(Chambre chambre) {
         chambreDAO.update(chambre);
     }
 
-    public void deleteChambre(chambre chambre) {
+    public void deleteChambre(Chambre chambre) {
         chambreDAO.delete(chambre);
     }
 
-    public List<chambre> getAllChambres() {
+    public List<Chambre> getAllChambres() {
         return chambreDAO.findAll();
     }
 
     // Autres méthodes métier spécifiques aux chambres
 
-    public List<chambre> findAvailableChambres(LocalDate startDate, LocalDate endDate) {
+    public List<Chambre> findAvailableChambres(LocalDate startDate, LocalDate endDate) {
         return chambreDAO.findAvailableChambres(startDate, endDate);
     }
 }
