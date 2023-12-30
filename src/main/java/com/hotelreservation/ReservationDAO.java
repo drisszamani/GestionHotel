@@ -28,17 +28,17 @@ public class ReservationDAO {
     }
 
     public List<Reservation> findAll() {
-        TypedQuery<Reservation> query = entityManager.createQuery("SELECT r FROM Reservation r", Reservation.class);
+        TypedQuery<Reservation> query = entityManager.createQuery("SELECT r FROM reservations r", Reservation.class);
         return query.getResultList();
     }
     public List<Reservation> findByClient(Client client) {
-        TypedQuery<Reservation> query = entityManager.createQuery("SELECT r FROM Reservation r WHERE r.client = :client", Reservation.class);
+        TypedQuery<Reservation> query = entityManager.createQuery("SELECT r FROM reservations r WHERE r.client = :client", Reservation.class);
         query.setParameter("client", client);
         return query.getResultList();
     }
 
     public List<Reservation> findReservationsForDate(LocalDate date) {
-        TypedQuery<Reservation> query = entityManager.createQuery("SELECT r FROM Reservation r WHERE :date BETWEEN r.dateArrivee AND r.dateDepart", Reservation.class);
+        TypedQuery<Reservation> query = entityManager.createQuery("SELECT r FROM reservations r WHERE :date BETWEEN r.dateArrivee AND r.dateDepart", Reservation.class);
         query.setParameter("date", date);
         return query.getResultList();
     }

@@ -27,19 +27,19 @@ public class ClientDAO {
     }
 
     public List<Client> findAll() {
-        TypedQuery<Client> query = entityManager.createQuery("SELECT c FROM Client c", Client.class);
+        TypedQuery<Client> query = entityManager.createQuery("SELECT c FROM clients c", Client.class);
         return query.getResultList();
     }
 
     public List<Client> findByEmail(String email) {
-        TypedQuery<Client> query = entityManager.createQuery("SELECT c FROM Client c WHERE c.email = :email", Client.class);
+        TypedQuery<Client> query = entityManager.createQuery("SELECT c FROM clients c WHERE c.email = :email", Client.class);
         query.setParameter("email", email);
         return query.getResultList();
     }
 
     public List<Client> findClientsWithNoReservations() {
         return entityManager.createQuery(
-                        "SELECT c FROM Client c WHERE c.id NOT IN (SELECT r.client.id FROM Reservation r)", Client.class)
+                        "SELECT c FROM clients c WHERE c.id NOT IN (SELECT r.clients.id FROM reservations r)", Client.class)
                 .getResultList();
     }
 

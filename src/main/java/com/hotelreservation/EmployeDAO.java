@@ -1,6 +1,5 @@
 package com.hotelreservation;
 
-import com.hotelreservation.Employe;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
@@ -27,11 +26,11 @@ public class EmployeDAO {
     }
 
     public List<Employe> findAll() {
-        TypedQuery<Employe> query = entityManager.createQuery("SELECT e FROM Employe e", Employe.class);
+        TypedQuery<Employe> query = entityManager.createQuery("SELECT u FROM utilisateurs u", Employe.class);
         return query.getResultList();
     }
     public List<Employe> findByPoste(String poste) {
-        TypedQuery<Employe> query = entityManager.createQuery("SELECT e FROM Employe e WHERE e.poste = :poste", Employe.class);
+        TypedQuery<Employe> query = entityManager.createQuery("SELECT u FROM utilisateurs u WHERE u.poste = :poste", Employe.class);
         query.setParameter("poste", poste);
         return query.getResultList();
     }

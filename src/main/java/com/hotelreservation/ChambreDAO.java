@@ -1,6 +1,5 @@
 package com.hotelreservation;
 
-import com.hotelreservation.Chambre;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
@@ -28,13 +27,13 @@ public class ChambreDAO {
     }
 
     public List<Chambre> findAll() {
-        TypedQuery<Chambre> query = entityManager.createQuery("SELECT ch FROM Chambre ch", Chambre.class);
+        TypedQuery<Chambre> query = entityManager.createQuery("SELECT ch FROM chambres ch", Chambre.class);
         return query.getResultList();
     }
 
     public List<Chambre> findAvailableChambres(LocalDate startDate, LocalDate endDate) {
         return entityManager.createQuery(
-                        "SELECT ch FROM Chambre ch WHERE ch.id NOT IN (SELECT r.chambre.id FROM Reservation r WHERE r.dateArrivee <= :endDate AND r.dateDepart >= :startDate)", Chambre.class)
+                        "SELECT ch FROM chambres ch WHERE ch.id NOT IN (SELECT r.chambre.id FROM reservations r WHERE r.dateArrivee <= :endDate AND r.dateDepart >= :startDate)", Chambre.class)
                 .setParameter("startDate", startDate)
                 .setParameter("endDate", endDate)
                 .getResultList();
