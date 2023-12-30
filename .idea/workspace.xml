@@ -9,26 +9,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="810bbdee-33d9-4b52-997d-ec35200fdbd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="810bbdee-33d9-4b52-997d-ec35200fdbd6" name="Changes" comment="Emsi-4eme-g5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/Chambre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ChambreDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ChambreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ClientDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/EmployeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/EmployeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ReservationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ReservationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/01738cc2-63ef-4aa2-a5af-1d9a5894842a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/01738cc2-63ef-4aa2-a5af-1d9a5894842a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/01738cc2-63ef-4aa2-a5af-1d9a5894842a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/01738cc2-63ef-4aa2-a5af-1d9a5894842a/storage_v2/_src_/schema/hotel_reservation_db.vJeSvQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/01738cc2-63ef-4aa2-a5af-1d9a5894842a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/01738cc2-63ef-4aa2-a5af-1d9a5894842a/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/01738cc2-63ef-4aa2-a5af-1d9a5894842a/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/01738cc2-63ef-4aa2-a5af-1d9a5894842a/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6cef0785-3c60-44bc-80e8-32029d37c254.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6cef0785-3c60-44bc-80e8-32029d37c254.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chambre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/chambre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chambreDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/chambreDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chambreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/chambreService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/clientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/clientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/clientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/clientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/employe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/employeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/employeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reservationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/reservationDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/reservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestDatabaseConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/chambre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/chambreDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/chambreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/clientDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/clientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/employe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/employeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/employeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/reservationDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/reservationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestionhotel/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestionhotel/HelloResource.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +53,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -125,6 +143,54 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56081" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -168,12 +234,38 @@
       <workItem from="1703243883124" duration="610000" />
       <workItem from="1703244498164" duration="1798000" />
       <workItem from="1703246302669" duration="43000" />
-      <workItem from="1703246349366" duration="1664000" />
+      <workItem from="1703246349366" duration="2428000" />
+      <workItem from="1703320091562" duration="266000" />
+      <workItem from="1703338479666" duration="4365000" />
+      <workItem from="1703923186043" duration="1652000" />
+      <workItem from="1703924845665" duration="35000" />
+      <workItem from="1703925142319" duration="2158000" />
     </task>
+    <task id="LOCAL-00001" summary="Emsi-4eme-g5">
+      <option name="closed" value="true" />
+      <created>1703248052032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703248052032</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Emsi-4eme-g5">
+      <option name="closed" value="true" />
+      <created>1703248165168</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703248165168</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Emsi-4eme-g5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Emsi-4eme-g5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

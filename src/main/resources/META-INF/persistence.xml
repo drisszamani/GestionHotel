@@ -8,10 +8,10 @@
     <persistence-unit name="hotelPersistenceUnit" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-        <class>com.hotelreservation.client</class>
-        <class>com.hotelreservation.chambre</class>
-        <class>com.hotelreservation.reservation</class>
-        <class>com.hotelreservation.employe</class>
+        <class>com.hotelreservation.Client</class>
+        <class>com.hotelreservation.Chambre</class>
+        <class>com.hotelreservation.Reservation</class>
+        <class>com.hotelreservation.Employe</class>
 
         <properties>
             <!-- Configurations de base de données -->

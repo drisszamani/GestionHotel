@@ -1,21 +1,22 @@
 package com.hotelreservation;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
 @Table(name = "reservations")
-public class reservation {
+public class Reservation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne
     @JoinColumn(name = "client_id")
-    private client client;
+    private Client client;
 
     @ManyToOne
     @JoinColumn(name = "chambre_id")
-    private chambre chambre;
+    private Chambre chambre;
 
     @Column(name = "date_arrivee")
     private LocalDate dateArrivee;
@@ -24,17 +25,17 @@ public class reservation {
     private LocalDate dateDepart;
 
     // Constructeurs
-    public reservation() {}
+    public Reservation() {}
 
     // Getters et setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
-    public client getClient() { return client; }
-    public void setClient(client client) { this.client = client; }
+    public Client getClient() { return client; }
+    public void setClient(Client client) { this.client = client; }
 
-    public chambre getchambre() { return chambre; }
-    public void setchambre(chambre chambre) { this.chambre = chambre; }
+    public Chambre getChambre() { return chambre; }
+    public void setChambre(Chambre chambre) { this.chambre = chambre; }
 
     public LocalDate getDateArrivee() { return dateArrivee; }
     public void setDateArrivee(LocalDate dateArrivee) { this.dateArrivee = dateArrivee; }

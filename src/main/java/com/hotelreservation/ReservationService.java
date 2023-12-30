@@ -1,41 +1,41 @@
 package com.hotelreservation;
+
 import java.time.LocalDate;
 import java.util.List;
 
-public class reservationService {
-    private final reservationDAO reservationDAO;
+public class ReservationService {
+    private final ReservationDAO reservationDAO;
 
-    public reservationService(reservationDAO reservationDAO) {
+    public ReservationService(ReservationDAO reservationDAO) {
         this.reservationDAO = reservationDAO;
     }
 
-    public reservation getReservationById(Long id) {
+    public Reservation getReservationById(Long id) {
         return reservationDAO.findById(id);
     }
 
-    public void saveReservation(reservation reservation) {
+    public void saveReservation(Reservation reservation) {
         reservationDAO.save(reservation);
     }
 
-    public void updateReservation(reservation reservation) {
+    public void updateReservation(Reservation reservation) {
         reservationDAO.update(reservation);
     }
 
-    public void deleteReservation(reservation reservation) {
+    public void deleteReservation(Reservation reservation) {
         reservationDAO.delete(reservation);
     }
 
-    public List<reservation> getAllReservations() {
+    public List<Reservation> getAllReservations() {
         return reservationDAO.findAll();
     }
 
     // Autres méthodes métier spécifiques aux réservations
-
-    public List<reservation> findReservationsByClient(client client) {
+    public List<Reservation> findReservationsByClient(Client client) {
         return reservationDAO.findByClient(client);
     }
 
-    public List<reservation> findReservationsForToday() {
+    public List<Reservation> findReservationsForToday() {
         return reservationDAO.findReservationsForDate(LocalDate.now());
     }
 }

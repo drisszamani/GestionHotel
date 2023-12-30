@@ -1,9 +1,10 @@
 package com.hotelreservation;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "clients")
-public class client {
+public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -18,7 +19,7 @@ public class client {
     private String telephone;
 
     // Constructeurs
-    public client() {}
+    public Client() {}
 
     // Getters et setters
     public Long getId() { return id; }
