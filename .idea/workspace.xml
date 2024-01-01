@@ -9,23 +9,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="810bbdee-33d9-4b52-997d-ec35200fdbd6" name="Changes" comment="Emsi-(30/12/23)">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/about.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/chambres.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/contact.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/offres.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/profil.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/reservation.jsp" afterDir="false" />
+    <list default="true" id="810bbdee-33d9-4b52-997d-ec35200fdbd6" name="Changes" comment="Emsi-(30/12/23)/Zamani">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/day-mode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/eddi-aguirre-ZAVHbpOn4Jk-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/edvin-johansson-rlwE8f8anOc-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/kelsey-curtis--27u_GzlAFw-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/khach-s-n-tinh-nhan-venice-1-hotel-FL2cq-GgnWQ-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/linus-mimietz-p3UWyaujtQo-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/logohotel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/logohotelwhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/manuel-moreno-DGa0LQ0yDPc-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/roberto-nickson-emqnSQwQQDo-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/saad-khan-425b2PhNuHA-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/sasha-kaunas-xEaAoizNFV8-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/tholaal-mohamed-8sKTHeGgrUM-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/visualsofdana-T5pL6ciEn-I-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ChambreDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ChambreDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ClientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/EmployeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/EmployeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ReservationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelreservation/ReservationDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/about.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/about.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/chambres.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/chambres.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/contact.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +53,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -82,7 +96,8 @@
     "Tomcat Server.Tomcat 9.0.84.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mac/Desktop/GestionHotel/src/main/resources/META-INF/loginpage",
+    "last_opened_file_path": "/Users/mac/Desktop/Projet JAVA/GestionHotel1/src/main/resources/META-INF/images",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,9 +117,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/loginpage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/images" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/loginpage" />
     </key>
@@ -201,6 +219,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-abbd5a8d" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-2f79fb23" />
       </set>
     </attachedChunks>
   </component>
@@ -223,6 +242,7 @@
       <workItem from="1703923186043" duration="1652000" />
       <workItem from="1703924845665" duration="35000" />
       <workItem from="1703925142319" duration="2158000" />
+      <workItem from="1704107099774" duration="19021000" />
     </task>
     <task id="LOCAL-00001" summary="Emsi-4eme-g5">
       <option name="closed" value="true" />
@@ -248,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703928848792</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Emsi-(30/12/23)/Zamani">
+      <option name="closed" value="true" />
+      <created>1703966297292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703966297292</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +285,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Emsi-4eme-g5" />
     <MESSAGE value="Emsi-(30/12/23)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Emsi-(30/12/23)" />
+    <MESSAGE value="Emsi-(30/12/23)/Zamani" />
+    <option name="LAST_COMMIT_MESSAGE" value="Emsi-(30/12/23)/Zamani" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

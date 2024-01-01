@@ -3,6 +3,7 @@
   <component name="WebContextManager">
     <option name="state">
       <map>
+        <entry key="file://$PROJECT_DIR$/src/main/resources/META-INF/index.jsp" value="file://$PROJECT_DIR$/src/main/resources/META-INF" />
         <entry key="file://$PROJECT_DIR$/src/main/resources/META-INF/loginpage/index.jsp" value="file://$PROJECT_DIR$/src/main/resources/META-INF/loginpage" />
       </map>
     </option>
