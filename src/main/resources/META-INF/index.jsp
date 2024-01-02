@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link href="https://fonts.google.com/specimen/Smooch" rel="stylesheet">
   <title>Accueil</title>
 </head>
 <body>
@@ -19,7 +19,9 @@
     </button>
     <div class="collapse navbar-collapse p-2 flex-column" id="navbarContent">
       <div class="d-flex justify-content-center">
+        <a class="navbar-brand d-none d-lg-block" href="index.jsp">
         <img src="images/logohotel.png" height="250" width="auto">
+        </a>
       </div>
       <div class="d-block w-100">
         <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
@@ -69,7 +71,7 @@
   <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="Banner"/>
   <div class="position-absolute top-50 start-50 translate-middle text-center">
     <img src="images/logohotelwhite.png" alt="ZK Grandeur Hôtel Logo" class="header-logo"/>
-    <h1 class="display-4">ZK GRANDEUR HÔTEL</h1>
+      <h1 class="titre-hotel">Zk Grandeur Hôtel</h1>
     <a href="reservation.jsp" class="btn btn-custom">
       Réserve maintenant!
     </a>
@@ -91,6 +93,29 @@
   </header>
 
   <style>
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 40px;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .titre-hotel {
+      font-family: 'Great Vibes', cursive;
+      animation: fadeInUp 5s ease-out forwards;
+      opacity: 0; /* Commencer avec une opacité de 0 pour l'animation */
+    }
+
+
     .luxury-title {
       font-family: 'Georgia', serif;
       color: #4a4a4a;

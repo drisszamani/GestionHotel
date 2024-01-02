@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <title>À Propos - ZK Grandeur Hôtel</title>
+    <title>Accueil</title>
 </head>
 <body>
 
@@ -18,7 +19,9 @@
         </button>
         <div class="collapse navbar-collapse p-2 flex-column" id="navbarContent">
             <div class="d-flex justify-content-center">
-                <img src="images/logohotel.png" height="250" width="auto">
+                <a class="navbar-brand d-none d-lg-block" href="index.jsp">
+                    <img src="images/logohotel.png" height="250" width="auto">
+                </a>
             </div>
             <div class="d-block w-100">
                 <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
@@ -63,42 +66,64 @@
     </div>
 </nav>
 
-<header class="header-banner">
+
+<div class="header-banner">
     <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="Banner"/>
     <div class="position-absolute top-50 start-50 translate-middle text-center">
         <img src="images/logohotelwhite.png" alt="ZK Grandeur Hôtel Logo" class="header-logo"/>
-        <h1 class="display-4">À propos de nous</h1>
+        <h1 class="titre-hotel">À propos de Zk Grandeur Hôtel</h1>
     </div>
+</div>
+
+<!--images/eddi-aguirre-ZAVHbpOn4Jk-unsplash.jpg-->
+<!--images/kelsey-curtis--27u_GzlAFw-unsplash.jpg-->
+<div class="image-slide-container">
+    <div class="image-wrapper" style="width: 50%; float: left;">
+        <img src="images/eddi-aguirre-ZAVHbpOn4Jk-unsplash.jpg" class="slide-image" data-slide-direction="left" alt="Image 1">
+    </div>
+    <div class="image-wrapper" style="width: 50%; float: right;">
+        <img src="images/kelsey-curtis--27u_GzlAFw-unsplash.jpg" class="slide-image" data-slide-direction="right" alt="Image 2">
+    </div>
+    <!-- Add more images as needed -->
+</div>
+
 </header>
 
-<section class="container my-5">
-    <h2 class="text-center luxury-title mb-4">À Propos de ZK Grandeur Hôtel</h2>
-    <div class="row">
-        <div class="col-lg-6">
-            <img src="images/visualsofdana-T5pL6ciEn-I-unsplash.jpg" class="img-fluid rounded shadow" alt="About Image">
-        </div>
-        <div class="col-lg-6">
-            <h3 class="luxury-title">Notre Histoire</h3>
-            <p class="luxury-text">Un texte détaillé racontant l'histoire de l'hôtel, son héritage, et ses valeurs fondamentales.</p>
-            <h3 class="luxury-title">Notre Mission</h3>
-            <p class="luxury-text">Expliquez la mission et la vision de votre hôtel, et ce qui vous distingue dans l'industrie hôtelière.</p>
-        </div>
-    </div>
-    <!-- Ajoutez d'autres sections comme 'Notre Équipe', 'Nos Engagements', etc. -->
-</section>
-
 <style>
+
+    h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+    }
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .titre-hotel {
+        font-family: 'Great Vibes', cursive;
+        animation: fadeInUp 5s ease-out forwards;
+        opacity: 0; /* Commencer avec une opacité de 0 pour l'animation */
+    }
+
+
     .luxury-title {
-        font-family: 'Georgia', serif;
+        font-family: 'Great Vibes', serif;
         color: #4a4a4a;
-        font-size: 2rem;
+        font-size: 40px;
         margin-bottom: 20px;
     }
 
     .luxury-text {
-        font-family: 'Arial', sans-serif;
+        font-family: 'Great Vibes', sans-serif;
         color: #333;
-        font-size: 18px;
+        font-size: 25px;
         line-height: 1.6;
     }
 
@@ -206,8 +231,46 @@
         }
     }
 </style>
+</header>
 
+<div class="text-center my-5">
+    <div class="row text-start align-items-center gy-5 my-5">
+        <div class="col-12 col-md-6">
+            <img src="images/eddi-aguirre-ZAVHbpOn4Jk-unsplash.jpg" class="img-fluid shadow" alt="Luxury Room"/>
+        </div>
+        <div class="col-12 col-md-6">
+            <h2 class="luxury-title">Notre Histoire</h2>
+            <p class="luxury-text">
+                Fondé en 1920, le ZK Grandeur Hôtel est un établissement emblématique, ancré dans le riche patrimoine culturel et architectural de notre ville. Depuis près d'un siècle, nous avons accueilli des voyageurs du monde entier, offrant une expérience d'hospitalité inégalée qui allie tradition et innovation.
 
+                Notre hôtel a été conçu par l'architecte renommé Jean Lefebvre, dont la vision était de créer un espace où le classicisme rencontre le modernisme. Chaque détail de l'hôtel, depuis les chandeliers en cristal de notre grand hall jusqu'aux tapisseries raffinées ornant nos suites, témoigne d'un art de vivre où élégance et confort règnent en maîtres.
+
+                Au fil des décennies, le ZK Grandeur Hôtel a évolué tout en préservant son caractère unique. Durant les années 1950, nous avons accueilli des célébrités et des personnalités politiques, consolidant notre réputation comme un lieu de rencontre pour l'élite mondiale. Dans les années 1980, une restauration majeure a apporté des touches modernes tout en respectant notre héritage historique.
+
+                Aujourd'hui, le ZK Grandeur Hôtel reste un symbole de luxe et de raffinement. Notre engagement envers l'excellence se reflète dans chaque service que nous offrons, assurant que chaque séjour chez nous est une expérience inoubliable. Nous sommes fiers de notre histoire et nous nous engageons à continuer d'écrire notre légende, accueillant nos hôtes avec le même enthousiasme et la même passion qu'à nos débuts.
+            </p>
+        </div>
+    </div>
+
+    <div class="row text-start align-items-center gy-5 my-5">
+        <div class="col-12 col-md-6">
+            <h2 class="luxury-title">Notre Mission</h2>
+            <p class="luxury-text">
+                Au cœur de notre mission au ZK Grandeur Hôtel se trouve un engagement indéfectible envers l'excellence. Nous nous efforçons de fournir une expérience hôtelière inégalée, où chaque client se sent reconnu, valorisé et choyé. Notre objectif est de dépasser les attentes, en offrant un service personnalisé qui reflète à la fois la grandeur de notre patrimoine et les besoins contemporains de nos hôtes.
+
+                Nous croyons fermement que le luxe réside dans les détails. De l'accueil chaleureux à l'attention particulière portée aux petites attentions, chaque aspect de l'expérience ZK Grandeur est conçu avec soin et précision. Nos équipes, formées aux plus hauts standards de l'hospitalité, incarnent notre passion pour l'excellence et notre désir de créer des souvenirs inoubliables.
+
+                Dans un monde en constante évolution, nous nous engageons également à innover et à nous renouveler. Que ce soit à travers l'adoption de technologies de pointe, la proposition de nouvelles expériences gastronomiques ou la mise en œuvre de pratiques durables, notre mission est de rester à l'avant-garde de l'industrie hôtelière.
+
+                Enfin, nous sommes dévoués à la création d'un environnement où le respect, l'intégrité et la bienveillance sont au premier plan. Que vous soyez notre hôte, partenaire ou membre de l'équipe, vous faites partie de la grande famille ZK Grandeur, où nous cultivons ensemble des relations durables basées sur la confiance et le respect mutuel.
+            </p>
+        </div>
+        <div class="col-12 col-md-6">
+            <img src="images/kelsey-curtis--27u_GzlAFw-unsplash.jpg" class="img-fluid shadow" alt="Elegant Urban Retreat"/>
+        </div>
+    </div>
+
+</div>
 <div class="footer">
     <div class="container">
         <div class="logo-center">
@@ -240,7 +303,6 @@
         </ul>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

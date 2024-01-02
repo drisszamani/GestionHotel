@@ -9,35 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="810bbdee-33d9-4b52-997d-ec35200fdbd6" name="Changes" comment="Emsi-(30/12/23)/Zamani">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/day-mode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/eddi-aguirre-ZAVHbpOn4Jk-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/edvin-johansson-rlwE8f8anOc-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/kelsey-curtis--27u_GzlAFw-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/khach-s-n-tinh-nhan-venice-1-hotel-FL2cq-GgnWQ-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/linus-mimietz-p3UWyaujtQo-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/logohotel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/logohotelwhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/manuel-moreno-DGa0LQ0yDPc-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/roberto-nickson-emqnSQwQQDo-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/saad-khan-425b2PhNuHA-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/sasha-kaunas-xEaAoizNFV8-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/tholaal-mohamed-8sKTHeGgrUM-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/visualsofdana-T5pL6ciEn-I-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="810bbdee-33d9-4b52-997d-ec35200fdbd6" name="Changes" comment="Emsi-(1/1/24)/Zamani">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/cadre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/detente.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/family.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/images/romance.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/about.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/about.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/chambres.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/chambres.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/contact.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/offres.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/offres.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,33 +70,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 9.0.84.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mac/Desktop/Projet JAVA/GestionHotel1/src/main/resources/META-INF/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.84.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac/Desktop/Projet JAVA/GestionHotel1/src/main/resources/META-INF/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/images" />
@@ -242,7 +224,8 @@
       <workItem from="1703923186043" duration="1652000" />
       <workItem from="1703924845665" duration="35000" />
       <workItem from="1703925142319" duration="2158000" />
-      <workItem from="1704107099774" duration="19021000" />
+      <workItem from="1704107099774" duration="19107000" />
+      <workItem from="1704187222590" duration="9275000" />
     </task>
     <task id="LOCAL-00001" summary="Emsi-4eme-g5">
       <option name="closed" value="true" />
@@ -276,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703966297292</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Emsi-(1/1/24)/Zamani">
+      <option name="closed" value="true" />
+      <created>1704129132706</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704129132706</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +277,8 @@
     <MESSAGE value="Emsi-4eme-g5" />
     <MESSAGE value="Emsi-(30/12/23)" />
     <MESSAGE value="Emsi-(30/12/23)/Zamani" />
-    <option name="LAST_COMMIT_MESSAGE" value="Emsi-(30/12/23)/Zamani" />
+    <MESSAGE value="Emsi-(1/1/24)/Zamani" />
+    <option name="LAST_COMMIT_MESSAGE" value="Emsi-(1/1/24)/Zamani" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
